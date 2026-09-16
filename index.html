@@ -1,89 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FREE Stock Market Masterclass - </title>Candle King
+<title>Elite Trades - </title>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:#030a1c;color:#fff;font-family:Arial,sans-serif}
-.top{background:#00e5ff;color:#000;text-align:center;padding:10px;font-weight:bold;font-size:14px}
-.wrap{max-width:480px;margin:0 auto;padding:20px}
-h1{font-size:32px;line-height:1.1}
-h1 span{color:#00e5ff}
-.sub{color:#aaa;margin:10px 0 20px;font-size:15px}
-.photo{width:260px;height:260px;border-radius:50%;border:4px solid #00e5ff;display:block;margin:20px auto;object-fit:cover}
-.name{text-align:center;font-size:22px;font-weight:bold}
-.tag{text-align:center;color:#00e5ff;font-size:12px;margin-bottom:20px}
-.timer{border:2px solid #00e5ff;background:#fff;color:#000;text-align:center;padding:15px;border-radius:10px;margin:20px 0}
-.timer b{font-size:32px;color:#00aaff;letter-spacing:3px}
-.learn{background:rgba(255,255,255,0.05);padding:15px;border-radius:12px;margin:20px 0}
-.learn div{margin:10px 0;font-size:14px}
-.bonus{background:#f5d47a;color:#000;padding:15px;border-radius:12px;margin:20px 0}
-.btn{background:#00e5ff;color:#000;width:100%;padding:20px;border:none;border-radius:12px;font-size:20px;font-weight:bold;cursor:pointer;animation:pulse 2s infinite}
-.btn:disabled{background:#444;color:#999;animation:none}
-@keyframes pulse{0%{transform:scale(1)}50%{transform:scale(1.03)}100%{transform:scale(1)}}
-.small{font-size:11px;color:#888;text-align:center;margin-top:15px}
+body{background:#050507;color:#fff;font-family:Arial,sans-serif;text-align:center;overflow-x:hidden}
+.top-bar{border:1px solid #d4af37;background:linear-gradient(90deg,#1a1a1a,#2a2a2a);padding:10px;margin:15px;border-radius:12px;display:flex;justify-content:space-between;align-items:center;font-size:11px;letter-spacing:1px}
+.wrap{max-width:440px;margin:auto;padding:0 20px 20px}
+.photo-wrap{position:relative;width:260px;height:260px;margin:30px auto 20px}
+.photo-ring{position:absolute;inset:0;border-radius:50%;background:linear-gradient(45deg,#d4af37,#fff,#d4af37);padding:4px;box-shadow:0 0 40px rgba(212,175,55,0.5)}
+.photo-inner{width:100%;height:100%;border-radius:50%;overflow:hidden;background:#000;border:3px solid #000}
+.photo-inner img{width:100%;height:100%;object-fit:cover}
+.badge{position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);background:linear-gradient(90deg,#2a2a2a,#1a1a1a);border:1px solid #d4af37;border-radius:20px;padding:6px 18px;display:flex;align-items:center;gap:6px;white-space:nowrap}
+.badge span{color:#d4af37;font-size:12px;font-weight:bold}
+h1{font-family:'Playfair Display',serif;font-size:36px;line-height:1.1;margin:40px 0 10px;color:#e8d5a3;text-shadow:0 0 20px rgba(212,175,55,0.3)}
+h1 span{color:#d4af37}
+.sub{color:#7ec8e6;font-size:15px;margin-bottom:25px;line-height:1.4}
+.glass{border:1px solid rgba(212,175,55,0.3);background:linear-gradient(180deg,rgba(255,255,255,0.08),rgba(0,0,0,0.3));backdrop-filter:blur(10px);border-radius:16px;padding:20px;margin:20px 0;display:flex;justify-content:space-between}
+.glass div{flex:1;text-align:center;border-right:1px solid rgba(212,175,55,0.2)}
+.glass div:last-child{border:none}
+.glass b{display:block;font-size:12px;color:#fff;margin-top:8px;line-height:1.2}
+.btn-premium{display:block;background:linear-gradient(180deg,#7ec8e6,#2a9bc1);color:#000;padding:18px;border-radius:50px;font-size:20px;font-weight:800;text-decoration:none;margin:20px 0;box-shadow:0 0 30px rgba(126,200,230,0.5),inset 0 1px 1px #fff;border:2px solid #d4af37}
+.bonus-box{border:1px solid #d4af37;background:linear-gradient(180deg,rgba(20,20,20,0.9),rgba(0,0,0,0.9));border-radius:16px;padding:20px;text-align:left;margin:20px 0}
+.trust{border:1px solid rgba(126,200,230,0.3);background:rgba(126,200,230,0.1);border-radius:30px;padding:10px 20px;display:inline-flex;align-items:center;gap:10px;margin-top:15px;font-size:12px}
 </style>
+ <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1022896560780248');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1022896560780248&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </head>
 <body>
-<div class="top">🔴 LIVE TODAY 8 PM | 10,342 JOINED | FREE ENTRY</div>
+<div style="max-width:440px;margin:auto">
+<div class="top-bar">
+<span style="color:#d4af37">◆ Candle king</span>
+<span>☰ | 🔔</span>
+</div>
+</div>
+
 <div class="wrap">
-<h1>FREE STOCK MARKET <span>MASTERCLASS</span></h1>
-<div class="sub">5 Secrets 95% Beginners Don't Know</div>
-<img class="photo" src="deepak.jpg" alt="Deepak Wadhwa">
-<div class="name">With CANDLE KING</div>
-<div class="tag">Trader & Mentor | 10+ Years Exp | 50K+ Students</div>
-
-<div class="timer">
-<div style="font-size:12px">Class Starts In:</div>
-<b id="count">02 : 14 : 33</b>
-<div style="font-size:11px;color:#666">Hours Mins Secs Left</div>
+<div class="photo-wrap">
+<div class="photo-ring"><div class="photo-inner"><img src="deepak.jpg"></div></div>
+<div class="badge"><span>⭐⭐⭐⭐⭐ 4.9</span><span style="color:#7ec8e6;font-size:9px">1,200+ REVIEWS</span></div>
 </div>
 
-<div class="learn">
-<b>What You Will Learn:</b>
-<div>✅ Day 1: Chart Basics - Candlestick, Volume, Levels</div>
-<div>✅ Day 2: Trend Power - Support, Resistance, Breakout</div>
-<div>✅ Day 3: Risk Management - Capital Protection Formula</div>
-<div>✅ Day 4: Real Case Studies - My Own Trades</div>
-<div>✅ Day 5: Live Q&A - Your Doubts Solved</div>
+<h1>FREE STOCK MARKET<br><span>MASTERCLASS</span></h1>
+<p class="sub">Master Options, Equity & Wealth Creation<br>Live Training with Expert</p>
+
+<div class="glass">
+<div>▶<br><b>3 LIVE SESSIONS</b></div>
+<div>📊<br><b>PRICE ACTION • PORTFOLIO STRATEGY</b></div>
+<div>🛡<br><b>RISK MANAGEMENT</b></div>
 </div>
 
-<div class="bonus">
-<b>🎁 FREE BONUS Worth ₹4,997</b><br>
-• Trading Checklist PDF • Top 5 Stock Watchlist<br>
-• Private Telegram Support Group Access
+<!-- PREMIUM BUTTON DIRECTLY BELOW PHOTO SECTION -->
+<a href="https://t.me/+gPyQqB4N4zFhYWY1" class="btn-premium" target="_blank">RESERVE YOUR SEAT<br>FREE →</a>
+
+<div class="bonus-box">
+<p style="color:#d4af37;font-weight:bold;letter-spacing:1px">📦 BONUS VAULT UNLOCKED</p><br>
+<span style="font-size:13px;line-height:2">
+• Options Cheat Sheet PDF<br>
+• Portfolio Tracker Excel<br>
+• 5 Stock Case Studies<br>
+</span>
+<div style="text-align:center">
+<div class="trust">🛡<span><b>10,000+ MEMBERS TRUST</b><br><small style="color:#7ec8e6">Trusted by investors across India</small></span></div>
+</div>
 </div>
 
-<button id="joinBtn" class="btn" disabled>Verifying... Please Wait 5 Sec</button>
-<div class="small">Today 8 PM • Live on Zoom • 100% FREE<br>
-https://t.me/+gPyQqB4N4zFhYWY1<br><br>
-⚠️ Educational Purpose Only. Not Financial Advice. | 10K+ Members</div>
+<a href="https://t.me/+gPyQqB4N4zFhYWY1" class="btn-premium" target="_blank" style="font-size:16px">✈ JOIN TELEGRAM NOW - 500 Seats</a>
+
+<p style="font-size:10px;color:#555;margin-top:20px;border:1px solid #333;border-radius:8px;padding:10px">
+LIMITED TO 50 SEATS • LIVE ON ZOOM • 8TH OCT, 7:00 PM IST<br>
+t.me/+gPyQqB4N4zFhYWY1
+</p>
 </div>
-
-<script>
-// Countdown timer
-let time = 2*3600 + 14*60 + 33;
-setInterval(()=>{
- time--;
- let h=Math.floor(time/3600), m=Math.floor((time%3600)/60), s=time%60;
- document.getElementById('count').innerText = 
-  String(h).padStart(2,'0')+" : "+String(m).padStart(2,'0')+" : "+String(s).padStart(2,'0');
-},1000);
-
-// Anti fake click logic
-let btn=document.getElementById('joinBtn');
-let start=Date.now();
-setTimeout(()=>{btn.disabled=false;btn.innerText="👉 JOIN TELEGRAM NOW";},5000);
-btn.onclick=()=>{
- if(Date.now()-start<5500) return;
- if(btn.dataset.clicked) return;
- btn.dataset.clicked="1";
- btn.innerText="Redirecting to Telegram...";
- btn.disabled=true;
- setTimeout(()=>{window.location.href="https://t.me/+gPyQqB4N4zFhYWY1";},800);
-};
-</script>
 </body>
 </html>
